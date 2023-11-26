@@ -1,0 +1,51 @@
+:root {
+    --amazing-color--: #FED136;
+    --gtext-font: 'Montserrat', sans-serif;
+    --slab-font: 'Roboto Slab', serif;
+    --gtextb-font: 'Montserrat', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 933px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+.logo-link {
+    display: block;
+    margin-right: auto;
+    margin-top: 26px;
+}
+
+.h1 {
+    font-family: var(--gtextb-font);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+.list {
+    list-style: none;
+    color:var(--amazing-color--) ;
+    text-transform: uppercase;
+    font-family: var(--gtext-font);
+    font-size: 14px;
+    line-height: 41px;
+    display: flex;
+
+
+}
+
+.list-item {
+    margin: 10px;
+}
