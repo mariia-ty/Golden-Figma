@@ -50,6 +50,12 @@ header {
 
 .service_type {
     width: 274px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }  
 
 .paragraph {
@@ -63,4 +69,14 @@ header {
 .icon {
     margin: 0 auto;
     display: block;
+}
+
+.img-wrap {
+    height: 70px;
+    width: 70px;
+    border: 3px solid var(--amazing-color--);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
