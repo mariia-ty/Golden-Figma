@@ -121,6 +121,23 @@ header {
 }
 
 .button {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+
+ 
+}
+
+.button_txt {
+  color: #ffff;
+  background-color: #fed136;
+  text-align: center;
+  font-family: var(--gtextb-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+   padding: 7px;
+  width: 242px;
+  height: 68px;
+  border: 1px solid var(--DBG-color--);
 }
