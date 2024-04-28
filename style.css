@@ -43,7 +43,6 @@ header {
   font-size: 14px;
   line-height: 41px;
   display: flex;
-  
 }
 
 .list-item {
@@ -98,15 +97,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 /* .img-wrap:hover {
   } */
 
 .flip-2-hor-top-1:hover {
-	-webkit-animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  -webkit-animation: flip-2-hor-top-1 0.5s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 /* ----------------------------------------------
@@ -121,35 +120,34 @@ header {
  * animation flip-2-hor-top-1
  * ----------------------------------------
  */
- @-webkit-keyframes flip-2-hor-top-1 {
+@-webkit-keyframes flip-2-hor-top-1 {
   0% {
     -webkit-transform: translateY(0) rotateX(0);
-            transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
     -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
   }
   100% {
     -webkit-transform: translateY(-100%) rotateX(-180deg);
-            transform: translateY(-100%) rotateX(-180deg);
+    transform: translateY(-100%) rotateX(-180deg);
     -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
   }
 }
 @keyframes flip-2-hor-top-1 {
   0% {
     -webkit-transform: translateY(0) rotateX(0);
-            transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
     -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
   }
   100% {
     -webkit-transform: translateY(-100%) rotateX(-180deg);
-            transform: translateY(-100%) rotateX(-180deg);
+    transform: translateY(-100%) rotateX(-180deg);
     -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
   }
 }
-
 
 .contacts_section {
   background-color: var(--DBG-color--);
@@ -204,7 +202,6 @@ header {
   padding-top: 14px;
 }
 
-
 .button {
   text-align: center;
 }
@@ -241,3 +238,51 @@ header {
 } */
 
 
+@media (max-width:430px) {
+  .container {
+    width: 210px;
+    outline: black solid 2px;
+  }
+  header {
+    width: 220px;
+    outline: cornflowerblue solid 2px;
+    display: block;
+  }
+  .list {
+    width: 220px;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .logo-link {
+    display: flex;
+    justify-content: center;
+  }
+  .service_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .service_type {
+    width: 205px;
+    margin-top: 30px;
+  }
+  .form-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-left {
+    width: 188px;
+  }
+  .message {
+    width: 188px;
+  }
+  .button {
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .button_txt {
+    width: 200px;
+  }
+}
